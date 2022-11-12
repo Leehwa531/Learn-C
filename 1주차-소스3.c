@@ -5,10 +5,10 @@ int main()
 {
 	int x, y;
 	int max, min;
-	printf("ÀÓÀÇÀÇ Á¤¼ö ÀÔ·Â1 :");
+	printf("ì„ì˜ì˜ ì •ìˆ˜ ì…ë ¥1 :");
 	scanf("%d", &x);
-	printf("ÀÓÀÇÀÇ Á¤¼ö ÀÔ·Â1 :");
+	printf("ì„ì˜ì˜ ì •ìˆ˜ ì…ë ¥1 :");
 	scanf("%d", &y);
 	(x > y) ? (max = x, min = y) : (max = y, min = x);
-	printf("¸òÀº %d ÀÌ°í ³ª¸ÓÁö´Â %d ÀÔ´Ï´Ù.", max / min, max % min);
+	printf("ëª«ì€ %d ì´ê³  ë‚˜ë¨¸ì§€ëŠ” %d ì…ë‹ˆë‹¤.", max / min, max %min);
 }
