@@ -14,7 +14,6 @@ int main()
 
 
 }
-
 double temperature(double a)
 {
 	return (a * 1.8 + 32);
